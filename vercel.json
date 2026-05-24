@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat.js" },
+    { "source": "/api/generate-image", "destination": "/api/generate-image.js" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}

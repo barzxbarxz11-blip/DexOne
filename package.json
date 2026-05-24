@@ -1,0 +1,10 @@
+{
+  "name": "dexone-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web Chat AI dengan integrasi gambar dan upload file berbasis Vercel Serverless",
+  "main": "api/chat.js",
+  "dependencies": {
+    "@google/genai": "^0.1.1"
+  }
+}
